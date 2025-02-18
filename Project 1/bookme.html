@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy Form</title>
+    <title>Bookme</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -15,17 +15,17 @@
         </form>
         <table id="table_menu">
             <tr>
-                <td id="row"><a href="index.html" target="_blank">Home</a></td>
-            <td id="row"><a href="sweets.html" target="_blank">Sweets</a></td>
-            <td id="row"><a href="menu.html" target="_blank">Menu</a></td>
-            <td id="row"><a href="contactus.html" target="_blank">Contact us</a></td>
+                <td id="row"><a href="index.html" target="_self">Home</a></td>
+            <td id="row"><a href="sweets.html" target="_self">Sweets</a></td>
+            <td id="row"><a href="menu.html" target="_self">Menu</a></td>
+            <td id="row"><a href="contactus.html" target="_self">Contact us</a></td>
             
         </tr>
         </table>
-        <fieldset id="order_new">
+        <fieldset id="order_new_1">
 
             <legend id="order_online"> 
-            Order_Online
+            Book Me Online
         </legend>
         
         <form id="order_online_form">
@@ -61,11 +61,14 @@
         
         Address: <br>
         <textarea name="address" placeholder="District,Pincode,Area,House No.,colony name, room no." id="order_input" cols="30" rows="10"></textarea><br>
-        <input type="submit" name="submit" value="order now" id="btn">
+       Time for booking: <br>
+        <input type="text" name="text for booking" id="order_input" placeholder="6:00Am to 11:00Pm">
+       Enter your openian: <br> <textarea name="other word" id="order_input" cols="30" rows="10" placeholder="Enter your extra sweets and notes"></textarea>
+        
+        <input type="submit" name="submit" value="Book now" id="btn">
         
         </form>
         </fieldset>
-        <h1 id="book_me_online_1"><a href="bookme.html" target="_blank">Book me online for Marage & Funtion</a></h1>
         
     
 </body>
